@@ -1,1 +1,3 @@
 # diffusion_weibo_data
+A public dataset of government micrbolgs on Sina Weibo.
+We crawl the posts published by the government microblog accounts which have the most followers in respectively 29 cities from all capital cities of provinces or sub-provincial cities in Mainland China, and filter out accounts published less than 10,000 posts since opening the account. As the total number of posts is too much, we sample only the first 7 days of each month from 2016-2018. For each published post, we collected the content, account information, released time, and the number of forwards. After removing unreasonable data and duplicate data, we finally get 76,619 posts.
